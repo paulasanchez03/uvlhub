@@ -4,7 +4,7 @@
 require 'pathname'
 require 'fileutils'
 
-# Method to load environment variables from an .env file and return them as a hash xx
+# Method to load environment variables from an .env file and return them as a hash yy
 def load_env(file)
   env_vars = {}
   if File.exist?(file)
